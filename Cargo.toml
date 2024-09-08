@@ -1,6 +1,6 @@
 [package]
 name = "send_discord"
-version = "0.1.1"
+version = "0.1.2"
 edition = "2021"
 
 description = "VERY Simple binary for sending discord webhooks"
@@ -13,4 +13,4 @@ readme = "README.md"
 [dependencies]
 discord-webhook-lib = "0.1.7"
 clap = { version = "4.5.17", features = ["derive"] }
-tokio = { version = "1.0.0", features = ["rt", "rt-multi-thread", "macros"] }
+tokio = { version = "1.40.0", features = ["rt", "rt-multi-thread", "macros"] }
