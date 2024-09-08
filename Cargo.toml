@@ -1,9 +1,9 @@
 [package]
 name = "send_discord"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 
-description = "Discord Webhook library - VERY Simple lib for sending webhooks from your codebase, without fuss, no fluff"
+description = "VERY Simple binary for sending discord webhooks"
 authors = ["james@koonts.net"]
 license = "MIT"
 repository = "https://github.com/helloimalemur/send_discord"
